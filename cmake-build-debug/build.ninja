@@ -61,6 +61,12 @@ build CMakeFiles/inventario.dir/inventory.cpp.obj: CXX_COMPILER__inventario_unsc
   OBJECT_DIR = CMakeFiles\inventario.dir
   OBJECT_FILE_DIR = CMakeFiles\inventario.dir
 
+build CMakeFiles/inventario.dir/History.cpp.obj: CXX_COMPILER__inventario_unscanned_Debug C$:/Users/maugv/Desktop/C++/inventario/History.cpp || cmake_object_order_depends_target_inventario
+  DEP_FILE = CMakeFiles\inventario.dir\History.cpp.obj.d
+  FLAGS = -g -std=gnu++20 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\inventario.dir
+  OBJECT_FILE_DIR = CMakeFiles\inventario.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target inventario
@@ -69,7 +75,7 @@ build CMakeFiles/inventario.dir/inventory.cpp.obj: CXX_COMPILER__inventario_unsc
 #############################################
 # Link the executable inventario.exe
 
-build inventario.exe: CXX_EXECUTABLE_LINKER__inventario_Debug CMakeFiles/inventario.dir/main.cpp.obj CMakeFiles/inventario.dir/inventory.cpp.obj
+build inventario.exe: CXX_EXECUTABLE_LINKER__inventario_Debug CMakeFiles/inventario.dir/main.cpp.obj CMakeFiles/inventario.dir/inventory.cpp.obj CMakeFiles/inventario.dir/History.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\inventario.dir
